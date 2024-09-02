@@ -1,0 +1,60 @@
+<RCC>
+  <qresource prefix="&lt;no prefix>">
+    <file>icons/icons8-wheel-64.png</file>
+    <file>icons/icons8-lightning-bolt-50.png</file>
+    <file>icons/icons8-car-emissions-64.png</file>
+    <file>icons/icons8-analysis-50 (2).png</file>
+    <file>icons/icons8-analysis-50 (2).png</file>
+    <file>icons/icons8-analysis-50 (2).png</file>
+    <file>icons/icons8-analysis-32.png</file>
+    <file>icons/icons8-analysis-80.png</file>
+    <file>icons/téléchargement (5).png</file>
+    <file>icons/Brazil-HDV-emissions-P8-removebg-preview.png</file>
+    <file>icons/Euro-emission-standards-for-emissions-EEA-2014-removebg-preview.png</file>
+    <file>icons/Brazil-HDV-emissions-P8-removebg-preview.png</file>
+    <file>icons/Euro-emission-standards-for-emissions-EEA-2014-removebg-preview.png</file>
+    <file>icons/PEMs-600x313-removebg-preview.png</file>
+    <file>icons/PEMS.png</file>
+    <file>icons/11356_2019_6484_Figa_HTML-removebg-preview.png</file>
+    <file>icons/icons8-télécharger-vers-le-cloud-50.png</file>
+    <file>icons/icons8-télécharger-vers-le-cloud-55.png</file>
+    <file>icons/icons8-télécharger-vers-le-cloud-50 (1).png</file>
+    <file>icons/icons8-télécharger-vers-le-cloud-50.png</file>
+    <file>icons/search.png</file>
+    <file>icons/menu.png</file>
+    <file>icons/AR1.png</file>
+    <file>icons/AR2.png</file>
+    <file>icons/AR3.png</file>
+    <file>icons/AR4.png</file>
+    <file>icons/A1.png</file>
+    <file>icons/A2.png</file>
+    <file>icons/A3.png</file>
+    <file>icons/A4.png</file>
+    <file>icons/1.png</file>
+    <file>icons/2.png</file>
+    <file>icons/3.png</file>
+    <file>icons/4.png</file>
+    <file>icons/5.png</file>
+    <file>icons/6.png</file>
+    <file>icons/7.png</file>
+    <file>icons/8.png</file>
+    <file>icons/icons8-about-50 (1).png</file>
+    <file>icons/icons8-about-50 (2).png</file>
+    <file>icons/icons8-analysis-50 (1).png</file>
+    <file>icons/icons8-analysis-50.png</file>
+    <file>icons/icons8-home-48 (1).png</file>
+    <file>icons/icons8-home-48.png</file>
+    <file>icons/icons8-question-mark-24 (3).png</file>
+    <file>icons/icons8-question-mark-24 (4).png</file>
+    <file>icons/logo1.png</file>
+    <file>icons/profile.png</file>
+    <file>icons/settings1.png</file>
+    <file>icons/settings2.png</file>
+    <file>icons/settingssmall1.png</file>
+    <file>icons/settingssmall2.png</file>
+    <file>icons/signout1.png</file>
+    <file>icons/signout2.png</file>
+    <file>icons/signoutsmall1.png</file>
+    <file>icons/signoutsmall2.png</file>
+  </qresource>
+</RCC>

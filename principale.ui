@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1416</width>
+    <height>908</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="2">
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>61</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <property name="topMargin">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="pushButton_19">
+               <property name="font">
+                <font>
+                 <pointsize>30</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/im/menu1-removebg-preview.png);
+
+border : none;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="font">
+                <font>
+                 <pointsize>20</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Bienvenue</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>558</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="styleSheet">
+              <string notr="true">color: rgb(204, 229, 255);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 170, 255);
+
+background-color: rgb(204, 229, 255);</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QStackedWidget" name="stackedWidget">
+             <property name="currentIndex">
+              <number>2</number>
+             </property>
+             <widget class="QWidget" name="page">
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_20">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>71</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>71</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Accueil</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="Line" name="line_5">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_6">
+                 <property name="styleSheet">
+                  <string notr="true">border-image: url(:/im/photo accueil outil.jpg);
+
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_15">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>81</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>81</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Analyser Pro est un outil complet pour l'analyse détaillée des performances des bancs d'essai automobile. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Il offre aux ingénieurs un accès facile à toutes les fonctionnalités nécessaires pour une analyse précise des données.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+              <widget class="QLabel" name="label_5">
+               <property name="geometry">
+                <rect>
+                 <x>550</x>
+                 <y>270</y>
+                 <width>35</width>
+                 <height>10</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_2">
+              <layout class="QGridLayout" name="gridLayout_9">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_21">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>71</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>71</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Banc à rouleaux</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_16">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Rounded MT Bold</family>
+                   <pointsize>27</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Veuillez charger les données matlab du banc à rouleaux (.csv)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="Line" name="line_6">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_22">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 127);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_7">
+                 <property name="styleSheet">
+                  <string notr="true">border-image: url(:/im/banc_rouleaux.jpg);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_3">
+              <layout class="QGridLayout" name="gridLayout_10">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_24">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>71</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Banc moteur</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_19">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Rounded MT Bold</family>
+                   <pointsize>27</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Veuillez charger les données matlab du banc moteur (.csv)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="Line" name="line_7">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_25">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 127);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="styleSheet">
+                  <string notr="true">border-image: url(:/im/banc_moteur.jpg);
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_4">
+              <layout class="QGridLayout" name="gridLayout_11">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_28">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Configurer le Paramètre d'Entrée</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QPushButton" name="pushButton_29">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Configurer le(s) Paramètre(s) de Sortie</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="2">
+                <layout class="QVBoxLayout" name="verticalLayout_11">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_31">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Choisir le type de graphique</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox">
+                   <property name="enabled">
+                    <bool>false</bool>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(0, 0, 0);</string>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Courbe</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Histogramme</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Diagramme de dispersion</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="2" column="0" colspan="2">
+                <widget class="QPushButton" name="pushButton_30">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Visualiser</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0" colspan="2">
+                <widget class="Line" name="line_2">
+                 <property name="styleSheet">
+                  <string notr="true">    border-bottom: 2px solid black;</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0" colspan="2">
+                <widget class="QChartView" name="graphicsView">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_5">
+              <layout class="QGridLayout" name="gridLayout_12">
+               <item row="0" column="0" colspan="3">
+                <widget class="QPushButton" name="pushButton_27">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>61</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Analyse</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_32">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+border-radius: 15px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Performances Moteur</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QPushButton" name="pushButton_33">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+border-radius: 15px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Émissions</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QPushButton" name="pushButton_34">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+border-radius: 15px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Dynamique du Véhicule</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0" colspan="3">
+                <widget class="Line" name="line_4">
+                 <property name="styleSheet">
+                  <string notr="true">
+    border-bottom: 2px solid black;
+</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0" colspan="3">
+                <widget class="QChartView" name="graphicsView_2">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_6">
+              <layout class="QGridLayout" name="gridLayout_13">
+               <item row="0" column="0" colspan="4">
+                <widget class="QPushButton" name="pushButton_36">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>61</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Comparer</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QPushButton" name="pushButton_23">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QLabel" name="label_20">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>25</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;● Données réelles du banc moteur&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_27">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>25</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;● Données matlab du banc à rouleaux (.csv)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_17">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>25</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;● Données réelles du banc à rouleaux (.csv)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QPushButton" name="pushButton_37">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QPushButton" name="pushButton_26">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="2">
+                <widget class="QLabel" name="label_21">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>25</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;● Données matlab du banc moteur&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="3">
+                <widget class="QPushButton" name="pushButton_38">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Charger</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0" colspan="4">
+                <widget class="QPushButton" name="pushButton_39">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Visualiser</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0" colspan="4">
+                <widget class="QChartView" name="graphicsView_3">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(255, 255, 255);</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0" colspan="4">
+                <widget class="Line" name="line_3">
+                 <property name="styleSheet">
+                  <string notr="true">    border-bottom: 2px solid black;</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_7">
+              <layout class="QGridLayout" name="gridLayout_14">
+               <item row="1" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout_13">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_41">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Paramètres d'Exportation</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_3">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Analyse</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Comparaison</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="2" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_42">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Format d'Exportation</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_4">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Exporter en PDF</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Exporter en Excel</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_40">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>61</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Exporter</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QPushButton" name="pushButton_45">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>30</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Exporter</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QPushButton" name="pushButton_43">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>51</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Générer un rapport complet</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="page_8">
+              <layout class="QGridLayout" name="gridLayout_15">
+               <item row="0" column="0" colspan="5">
+                <widget class="QPushButton" name="pushButton_46">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>61</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>44</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(18, 39, 72);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Paramètres</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="5">
+                <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_47">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Langue</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_5">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Français</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Anglais</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Arabe</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="2" column="0" colspan="5">
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_48">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Thème</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_6">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Clair</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Sombre</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="3" column="0" colspan="5">
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_49">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>31</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">
+
+QPushButton {
+    
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Notifications</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_7">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>29</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>20</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Activer</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Désactiver</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="4" column="0" colspan="5">
+                <widget class="QPushButton" name="pushButton_51">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>30</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Sécurité et Confidentialité</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0" colspan="2">
+                <widget class="QLabel" name="label_25">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>31</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Black</family>
+                   <pointsize>18</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;•Modifier le mot de passe:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="2" colspan="2">
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                   <strikeout>false</strikeout>
+                  </font>
+                 </property>
+                 <property name="tabletTracking">
+                  <bool>false</bool>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgba(0, 0, 0,0);
+border : 1px solid rgba(0,0,0,0);
+border-bottom-color: rgba(46, 82,101,255);
+border-bottom-color: rgb(112, 112, 112);
+color: rgb(255, 255, 255);
+padding-bottom: 7px
+</string>
+                 </property>
+                 <property name="echoMode">
+                  <enum>QLineEdit::Password</enum>
+                 </property>
+                 <property name="readOnly">
+                  <bool>false</bool>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Nouveau mot de passe</string>
+                 </property>
+                 <property name="clearButtonEnabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="4">
+                <widget class="QPushButton" name="pushButton_50">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}
+
+QPushButton:hover {
+background-color: rgb(170, 0, 0);
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Valider</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QPushButton" name="pushButton_52">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>41</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>30</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">
+
+QPushButton {
+    border-radius: 10px; 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Aide et Support</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1" colspan="2">
+                <widget class="QLabel" name="label_26">
+                 <property name="font">
+                  <font>
+                   <family>Arial Rounded MT Bold</family>
+                   <pointsize>20</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt;&quot;&gt;• Documentation : &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt; font-style:italic;&quot;&gt;[Lien_Documentation]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt;&quot;&gt;• Support technique : &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt; font-style:italic;&quot;&gt;[Lien_Support technique]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt;&quot;&gt;• Version de l'outil : &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt; font-style:italic;&quot;&gt;1.1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>93</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>93</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+background-color: rgb(85, 170, 255);
+background-color: rgb(204, 229, 255);
+QPushButtonhover{
+
+
+}
+
+
+
+
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>13</width>
+               <height>17</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>75</width>
+               <height>75</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">image: url(:/im/SII-removebg-preview.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>13</width>
+               <height>17</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="topMargin">
+            <number>50</number>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>18</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>70</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="minimumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    border: none;
+	image: url(:/im/486971-accueil-icon-design-gratuit-vectoriel-removebg-preview.png);
+	background-image: url(:/im/486971-accueil-icon-design-gratuit-vectoriel-removebg-preview.png);
+border-radius:16;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="autoExclusive">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="minimumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+QPushButton {
+    border: none;
+ 
+	image: url(:/im/4492900-200.png);
+border-radius:16;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+
+
+QPushButton {
+    border: none;
+	image: url(:/im/1.png);
+border-radius :3;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+
+
+
+QPushButton {
+ border: none;
+	image: url(:/im/2.png);
+border-radius:10;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_6">
+               <property name="minimumSize">
+                <size>
+                 <width>38</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>38</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+
+
+
+
+
+QPushButton {
+ border: none;
+	image: url(:/im/images-removebg-preview.png);
+border-radius:10;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="minimumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+
+
+
+
+QPushButton {
+ border: none;
+
+	image: url(:/im/3643771-configuration-configure-gear-set-setting_113449.png);
+border-radius:16;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_7">
+               <property name="minimumSize">
+                <size>
+                 <width>38</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>38</width>
+                 <height>38</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+QPushButton {
+ border: none;
+
+	image: url(:/im/3596149.png);
+
+
+border-radius:10;
+}
+
+QPushButton:hover {
+    background-color: rgb(0, 85, 127);
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>18</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>226</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+
+background-color: rgb(255, 255, 255); 
+color : black;}
+
+QPushButton { 
+height : 30 px;
+border: none;
+
+}</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="topMargin">
+          <number>1</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>52</number>
+         </property>
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="minimumSize">
+              <size>
+               <width>88</width>
+               <height>98</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>88</width>
+               <height>98</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">image: url(:/im/SII-removebg-preview.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="minimumSize">
+              <size>
+               <width>115</width>
+               <height>98</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>115</width>
+               <height>98</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(204, 229, 255);</string>
+             </property>
+             <property name="text">
+              <string>Analyser Pro</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="spacing">
+            <number>45</number>
+           </property>
+           <property name="topMargin">
+            <number>45</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="minimumSize">
+              <size>
+               <width>207</width>
+               <height>36</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+    
+
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+             </property>
+             <property name="text">
+              <string>Accueil</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>100</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="default">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_3">
+             <property name="font">
+              <font>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QFrame {
+    border: none;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="0" column="0">
+               <widget class="QPushButton" name="pushButton_12">
+                <property name="font">
+                 <font>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>Types de Banc</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>100</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QFrame" name="frame">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_15">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Banc à rouleaux</string>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>50</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_16">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Banc moteur</string>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>50</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+             </property>
+             <property name="text">
+              <string>Visualisation</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>100</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="frame_2">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="font">
+              <font>
+               <kerning>false</kerning>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QFrame {
+    border: none;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0">
+               <widget class="QPushButton" name="pushButton_10">
+                <property name="font">
+                 <font>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Options d'Analyse</string>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>100</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QFrame" name="frame_4">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <property name="spacing">
+                  <number>6</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_17">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Analyser</string>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>50</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_18">
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Comparer</string>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>50</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="spacing">
+            <number>39</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_11">
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+             </property>
+             <property name="text">
+              <string>Exporter</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>100</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_13">
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+             </property>
+             <property name="text">
+              <string>Paramètres</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>100</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_14">
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    border: 1px solid black; 
+}
+
+
+QPushButton:hover {
+background-color: rgb(0, 85, 127);
+
+}
+
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}</string>
+             </property>
+             <property name="text">
+              <string>Déconnecter</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>100</width>
+               <height>60</height>
+              </size>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header>qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../Downloads/images_interface/im.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame_4</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>291</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>617</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget_2</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>369</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>frame</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>211</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>496</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_8</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>822</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>794</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>150</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>142</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>58</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>291</x>
+     <y>751</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>68</x>
+     <y>694</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>96</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>596</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_7</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>134</x>
+     <y>874</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>874</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
